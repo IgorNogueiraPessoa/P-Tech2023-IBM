@@ -1,0 +1,134 @@
+.tornar-anunciante{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.tornar-anunciante .image{
+    position: absolute;    
+    width: 40%;
+    left: -25px;
+    bottom: -10px;
+}
+.tornar-anunciante .image img{
+    width: 100%;
+}
+
+.tornar-anunciante .title{ 
+    margin-bottom: 40px;
+    width: 100%;
+}
+.tornar-anunciante .title h1{ 
+    font-size: 55px;
+    text-align: center;
+    font-family: 'lovelace', 'arial', 'comic sans';
+    text-transform: uppercase;
+    color: #2c2c2c;
+}
+
+.tornar-anunciante .form{ 
+    display: inline-flex;
+    width: 100%;
+    justify-content: end;
+}
+
+.tornar-anunciante .form .text-form{
+    width: 50%;
+}
+
+.tornar-anunciante .form .vertical-group{ 
+    margin-bottom: 20px;
+}
+
+.tornar-anunciante .form .label{ 
+    margin-bottom: 10px;
+}
+.tornar-anunciante .form .label p{ 
+    font-size: 18px;
+}
+
+.tornar-anunciante .form input{ 
+    width: 100%;
+    border-radius: 15px;
+    padding: 2.5%;
+    padding-left: 15px;
+}
+
+.tornar-anunciante .button{
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.tornar-anunciante .button .btn1,
+.tornar-anunciante .button .btn2 input
+{ 
+    margin-top: 10px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #000;
+    color: #fff;
+    padding: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: bold;
+    border-radius: 100px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.tornar-anunciante .button .btn2{
+    display: flex;
+    float: right;
+}
+.tornar-anunciante .form .button input,
+.tornar-anunciante .form .button a
+{ 
+    font-weight: lighter;
+}
+
+.img-form{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-form label{
+    cursor: pointer;
+}
+
+.img-form .img label{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    cursor: pointer;
+}
+
+.img-form .img{
+    width: 150px;
+    height: 150px;
+}
+
+.img-form .img img{
+    width: 100%;
+    border-radius: 78px;
+}
+input[type='file'] {
+    display: none
+  }
+
+.img-form .description{
+    display: flex;
+}
+.img-form .description p{
+    font-weight: bold;
+    font-size: 18px;
+}
+.input-border {
+    border: 1px solid red ;
+}
